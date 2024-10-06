@@ -2,20 +2,57 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Lato;
-    max-width: 1200%;
-
-}
+    font-family: "Loto", sans-serif;
+    }
 
 .container {
     display: grid;
+    max-width: 1200px;
+    text-align: center;
+    
 }
 
 .header {
     display: grid;
-}
+    border: 1px solid rgb(160, 15, 160);
+    
+    }
 
 .top_line {
     display: grid;
-    grid-template-columns: 7fr;
+    grid-template-columns: 20% repeat(6, 1fr) 6%;
+    border: 1px solid rgb(150, 35, 173);
+    align-items: center;
+}
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.title {
+    display: grid;
+    border: 1px solid rgb(240, 211, 51);
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.main {
+    display: grid;
+    border: 1px solid rgb(71, 207, 29);
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid blue;
+    padding-top: 50px;
+}
+.offers {
+    display: grid;
+    border: 1px solid rgb(206, 146, 18);
+}
+.offer_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid rgb(206, 18, 143);
 }
