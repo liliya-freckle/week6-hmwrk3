@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+    max-width: 1200%;
+
+}
+
+.container {
+    display: grid;
+}
+
+.header {
+    display: grid;
+}
+
+.top_line {
+    display: grid;
+    grid-template-columns: 7fr;
+}
