@@ -9,6 +9,7 @@
     display: grid;
     max-width: 1200px;
     text-align: center;
+    margin: 0 auto;
     
 }
 
@@ -66,13 +67,22 @@
 
 .footer {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    
-    
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(78, 101, 129);
+    align-items: end;
+    color: azure;
+    padding: 60px;
+    font-size: smaller;
+        
 }
 .time {
-    grid-column: 7 / 8;
+    display: grid;
+    grid-column: 3 / 4;
+    padding-top: 20px;
 }
 .contacts {
-    grid-column: 8 / 9;
+    grid-column: 4 / 5;
+    padding-top: 20px;
+
 }
+
