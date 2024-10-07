@@ -14,14 +14,14 @@
 
 .header {
     display: grid;
-    border: 1px solid rgb(160, 15, 160);
+    /*border: 1px solid rgb(160, 15, 160);*/
     
     }
 
 .top_line {
     display: grid;
     grid-template-columns: 20% repeat(6, 1fr) 6%;
-    border: 1px solid rgb(150, 35, 173);
+   /* border: 1px solid rgb(150, 35, 173);*/
     align-items: center;
 }
 .banner {
@@ -31,7 +31,7 @@
 }
 .title {
     display: grid;
-    border: 1px solid rgb(240, 211, 51);
+   /* border: 1px solid rgb(240, 211, 51); */
     align-content: center;
     align-items: center;
     justify-items: center;
@@ -39,20 +39,40 @@
 }
 .main {
     display: grid;
-    border: 1px solid rgb(71, 207, 29);
+    
 }
 .about {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    border: 1px solid blue;
     padding-top: 50px;
 }
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    }
+
 .offers {
     display: grid;
-    border: 1px solid rgb(206, 146, 18);
+    
 }
+
 .offer_container {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid rgb(206, 18, 143);
+    }
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    
+    
+}
+.time {
+    grid-column: 7 / 8;
+}
+.contacts {
+    grid-column: 8 / 9;
 }
